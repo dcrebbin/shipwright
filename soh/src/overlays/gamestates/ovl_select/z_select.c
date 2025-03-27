@@ -37,6 +37,8 @@ void Select_LoadGame(SelectContext* this, s32 entranceIndex) {
         gSaveContext.buttonStatus[buttonIndex] = BTN_ENABLED;
     }
     gSaveContext.unk_13E7 = gSaveContext.unk_13E8 = gSaveContext.unk_13EA = gSaveContext.unk_13EC = 0;
+
+    gSaveContext.inventory.items[1] = ITEM_GLIDER;
     Audio_QueueSeqCmd(SEQ_PLAYER_BGM_MAIN << 24 | NA_BGM_STOP);
     gSaveContext.entranceIndex = entranceIndex;
 
