@@ -163,10 +163,10 @@ typedef enum PlayerItemAction {
     /* 0x40 */ PLAYER_IA_MASK_GERUDO,
     /* 0x41 */ PLAYER_IA_MASK_TRUTH,
     /* 0x42 */ PLAYER_IA_LENS_OF_TRUTH,
-    /* 0x43 */ PLAYER_IA_MAX,
 
     // CUSTOM
-    PLAYER_IA_GLIDER,
+    PLAYER_IA_GLIDER = 73,
+    /* 0x43 */ PLAYER_IA_MAX,
 
 } PlayerItemAction;
 
