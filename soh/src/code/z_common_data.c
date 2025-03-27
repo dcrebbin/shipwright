@@ -16,4 +16,7 @@ void SaveContext_Init(void) {
     gSaveContext.dogIsLost = true;
     gSaveContext.nextTransitionType = TRANS_NEXT_TYPE_DEFAULT;
     gSaveContext.unk_13EE = 50;
+
+    // CUSTOM forcing glider to be in inventory slot 1
+    gSaveContext.inventory.items[1] = ITEM_GLIDER;
 }

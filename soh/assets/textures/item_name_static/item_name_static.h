@@ -1110,4 +1110,8 @@ static const ALIGN_ASSET(2) char gUnusedBossKeyItemName21JPNTex[] = dgUnusedBoss
 #define dgBiggoronsSwordItemNameFRATex "__OTR__textures/item_name_static/gBiggoronsSwordItemNameFRATex"
 static const ALIGN_ASSET(2) char gBiggoronsSwordItemNameFRATex[] = dgBiggoronsSwordItemNameFRATex;
 
+// CUSTOM
+#define dgGliderItemNameENGTex "__OTR__customitems/item_name_static/gGliderItemNameENGTex"
+static const ALIGN_ASSET(2) char gGliderItemNameENGTex[] = dgGliderItemNameENGTex;
+
 #endif // TEXTURES_ITEM_NAME_STATIC_H

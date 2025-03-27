@@ -561,4 +561,8 @@ static const ALIGN_ASSET(2) char gPromptCursorLeftDL[] = dgPromptCursorLeftDL;
 #define dgPromptCursorRightDL "__OTR__textures/icon_item_static/gPromptCursorRightDL"
 static const ALIGN_ASSET(2) char gPromptCursorRightDL[] = dgPromptCursorRightDL;
 
+// CUSTOM
+#define dgGliderIconTex "__OTR__customitems/icon_item_static/gGliderIconTex"
+static const ALIGN_ASSET(2) char gGliderIconTex[] = dgGliderIconTex;
+
 #endif // TEXTURES_ICON_ITEM_STATIC_H
