@@ -2358,8 +2358,7 @@ void Player_InitItemAction(PlayState* play, Player* this, s8 itemAction) {
     osSyncPrintf("ItemAction: %d\n", this->heldItemAction);
     // CUSTOM
     if (this->heldItemAction == PLAYER_IA_GLIDER) {
-        // ItemSpawnGlider(play, this);
-        sItemActionInitFuncs[PLAYER_IA_BOMB](play, this);
+        ItemSpawnGlider(play, this);
     } else {
         sItemActionInitFuncs[itemAction](play, this);
     }
@@ -3510,17 +3509,12 @@ void Player_UseItem(PlayState* play, Player* this, s32 item) {
                 } else {
                     Sfx_PlaySfxCentered(NA_SE_SY_ERROR);
                 }
-            } else if (itemAction == PLAYER_IA_GLIDER) {
+            } else if (itemAction == 72 || itemAction == 73 || itemAction == -120 || itemAction == -56) {
                   // Handle Deku Nuts
-                  lusprintf(__FILE__, __LINE__, 2, "GLIDER");
-                if (AMMO(ITEM_NUT) != 0) {
-                    func_8083C61C(play, this);
-                } else {
-                    Sfx_PlaySfxCentered(NA_SE_SY_ERROR);
-                }
-                
+                lusprintf(__FILE__, __LINE__, 2, "GLIDER");
+                Glide(play, this);
+                lusprintf(__FILE__, __LINE__, 2, "Glide");
             } else if (itemAction == PLAYER_IA_DEKU_NUT) {
-                // Handle Deku Nuts
                 if (AMMO(ITEM_NUT) != 0) {
                     func_8083C61C(play, this);
                 } else {
@@ -5971,19 +5965,22 @@ void ItemSpawnGlider(PlayState* play, Player* this) {
     Actor* spawnedActor;
 
     if (this->stateFlags1 & PLAYER_STATE1_CARRYING_ACTOR) {
+        lusprintf(__FILE__, __LINE__, 2, "Putting away glider");
         Player_PutAwayHeldItem(play, this);
         return;
     }
+    lusprintf(__FILE__, __LINE__, 2, "Spawning glider");
     spawnedActor =
         Actor_SpawnAsChild(&play->actorCtx, &this->actor, play, ACTOR_EN_GLIDER, this->actor.world.pos.x,
                            this->actor.world.pos.y, this->actor.world.pos.z, 0, this->actor.shape.rot.y, 0, 0);
-
+    
     this->interactRangeActor = spawnedActor;
     this->heldActor = spawnedActor;
     this->getItemId = GI_NONE;
     this->getItemEntry = (GetItemEntry)GET_ITEM_NONE;
     this->unk_3BC.y = spawnedActor->shape.rot.y - this->actor.shape.rot.y;
     this->stateFlags1 |= PLAYER_STATE1_CARRYING_ACTOR;
+    lusprintf(__FILE__, __LINE__, 2, "Picked up glider");
 }
 
 void DespawnHeldGlider(PlayState* play, Player* this) {
