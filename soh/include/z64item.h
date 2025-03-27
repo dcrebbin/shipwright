@@ -146,7 +146,11 @@ typedef enum {
     /* 0x1B */ SLOT_BOOTS_KOKIRI,
     /* 0x1C */ SLOT_BOOTS_IRON,
     /* 0x1D */ SLOT_BOOTS_HOVER,
-    /* 0xFF */ SLOT_NONE = 0xFF
+    /* 0xFF */ SLOT_NONE = 0xFF,
+
+    // CUSTOM CODE
+    SLOT_GLIDER = 0xA1, // 161
+
 } InventorySlot;
 
 typedef enum {
@@ -308,7 +312,11 @@ typedef enum {
     /* 0x9B */ ITEM_NUT_UPGRADE_40,
     /* 0xFC */ ITEM_LAST_USED = 0xFC,
     /* 0xFE */ ITEM_NONE_FE = 0xFE,
-    /* 0xFF */ ITEM_NONE = 0xFF
+    /* 0xFF */ ITEM_NONE = 0xFF,
+
+    // CUSTOM
+    ITEM_GLIDER = 0xA1, // 161
+
 } ItemID;
 
 typedef enum {
@@ -457,7 +465,12 @@ typedef enum {
     /* 0x7B */ GI_BULLET_BAG_50,
     /* 0x7C */ GI_ICE_TRAP, // freezes link when opened from a chest
     /* 0x7D */ GI_TEXT_0,   // no model appears over Link, shows text id 0 (pocket egg)
-    /* 0x84 */ GI_MAX
+                            /* 0x84 */
+    GI_MAX,
+
+    // CUSTOM
+    GI_GLIDER = 0xA1, // 161
+
 } GetItemID;
 
 typedef enum {

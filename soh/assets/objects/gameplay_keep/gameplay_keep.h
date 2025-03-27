@@ -201,44 +201,64 @@ static const ALIGN_ASSET(2) char gPlayerAnim_demo_link_twait[] = dgPlayerAnim_de
 #define dgPlayerAnim_kolink_odoroki_demo "__OTR__objects/gameplay_keep/gPlayerAnim_kolink_odoroki_demo"
 static const ALIGN_ASSET(2) char gPlayerAnim_kolink_odoroki_demo[] = dgPlayerAnim_kolink_odoroki_demo;
 
-#define dgPlayerAnim_link_anchor_LLside_kiru_endL "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_LLside_kiru_endL"
+#define dgPlayerAnim_link_anchor_LLside_kiru_endL \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_LLside_kiru_endL"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_LLside_kiru_endL[] = dgPlayerAnim_link_anchor_LLside_kiru_endL;
 
-#define dgPlayerAnim_link_anchor_LLside_kiru_finsh_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_LLside_kiru_finsh_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_LLside_kiru_finsh_endR[] = dgPlayerAnim_link_anchor_LLside_kiru_finsh_endR;
+#define dgPlayerAnim_link_anchor_LLside_kiru_finsh_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_LLside_kiru_finsh_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_LLside_kiru_finsh_endR[] =
+    dgPlayerAnim_link_anchor_LLside_kiru_finsh_endR;
 
-#define dgPlayerAnim_link_anchor_LRside_kiru_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_LRside_kiru_endR"
+#define dgPlayerAnim_link_anchor_LRside_kiru_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_LRside_kiru_endR"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_LRside_kiru_endR[] = dgPlayerAnim_link_anchor_LRside_kiru_endR;
 
-#define dgPlayerAnim_link_anchor_LRside_kiru_finsh_endL "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_LRside_kiru_finsh_endL"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_LRside_kiru_finsh_endL[] = dgPlayerAnim_link_anchor_LRside_kiru_finsh_endL;
+#define dgPlayerAnim_link_anchor_LRside_kiru_finsh_endL \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_LRside_kiru_finsh_endL"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_LRside_kiru_finsh_endL[] =
+    dgPlayerAnim_link_anchor_LRside_kiru_finsh_endL;
 
-#define dgPlayerAnim_link_anchor_Lnormal_kiru_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Lnormal_kiru_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Lnormal_kiru_endR[] = dgPlayerAnim_link_anchor_Lnormal_kiru_endR;
+#define dgPlayerAnim_link_anchor_Lnormal_kiru_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Lnormal_kiru_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Lnormal_kiru_endR[] =
+    dgPlayerAnim_link_anchor_Lnormal_kiru_endR;
 
-#define dgPlayerAnim_link_anchor_Lnormal_kiru_finsh_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Lnormal_kiru_finsh_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Lnormal_kiru_finsh_endR[] = dgPlayerAnim_link_anchor_Lnormal_kiru_finsh_endR;
+#define dgPlayerAnim_link_anchor_Lnormal_kiru_finsh_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Lnormal_kiru_finsh_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Lnormal_kiru_finsh_endR[] =
+    dgPlayerAnim_link_anchor_Lnormal_kiru_finsh_endR;
 
-#define dgPlayerAnim_link_anchor_Lpierce_kiru_endL "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Lpierce_kiru_endL"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Lpierce_kiru_endL[] = dgPlayerAnim_link_anchor_Lpierce_kiru_endL;
+#define dgPlayerAnim_link_anchor_Lpierce_kiru_endL \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Lpierce_kiru_endL"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Lpierce_kiru_endL[] =
+    dgPlayerAnim_link_anchor_Lpierce_kiru_endL;
 
-#define dgPlayerAnim_link_anchor_Lpierce_kiru_finsh_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Lpierce_kiru_finsh_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Lpierce_kiru_finsh_endR[] = dgPlayerAnim_link_anchor_Lpierce_kiru_finsh_endR;
+#define dgPlayerAnim_link_anchor_Lpierce_kiru_finsh_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Lpierce_kiru_finsh_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Lpierce_kiru_finsh_endR[] =
+    dgPlayerAnim_link_anchor_Lpierce_kiru_finsh_endR;
 
-#define dgPlayerAnim_link_anchor_Lrolling_kiru_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Lrolling_kiru_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Lrolling_kiru_endR[] = dgPlayerAnim_link_anchor_Lrolling_kiru_endR;
+#define dgPlayerAnim_link_anchor_Lrolling_kiru_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Lrolling_kiru_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Lrolling_kiru_endR[] =
+    dgPlayerAnim_link_anchor_Lrolling_kiru_endR;
 
 #define dgPlayerAnim_link_anchor_Lside_kiru_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Lside_kiru_endR"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Lside_kiru_endR[] = dgPlayerAnim_link_anchor_Lside_kiru_endR;
 
-#define dgPlayerAnim_link_anchor_Lside_kiru_finsh_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Lside_kiru_finsh_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Lside_kiru_finsh_endR[] = dgPlayerAnim_link_anchor_Lside_kiru_finsh_endR;
+#define dgPlayerAnim_link_anchor_Lside_kiru_finsh_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Lside_kiru_finsh_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Lside_kiru_finsh_endR[] =
+    dgPlayerAnim_link_anchor_Lside_kiru_finsh_endR;
 
 #define dgPlayerAnim_link_anchor_Rside_kiru_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Rside_kiru_endR"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Rside_kiru_endR[] = dgPlayerAnim_link_anchor_Rside_kiru_endR;
 
-#define dgPlayerAnim_link_anchor_Rside_kiru_finsh_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Rside_kiru_finsh_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Rside_kiru_finsh_endR[] = dgPlayerAnim_link_anchor_Rside_kiru_finsh_endR;
+#define dgPlayerAnim_link_anchor_Rside_kiru_finsh_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_Rside_kiru_finsh_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_Rside_kiru_finsh_endR[] =
+    dgPlayerAnim_link_anchor_Rside_kiru_finsh_endR;
 
 #define dgPlayerAnim_link_anchor_anchor2fighter "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_anchor2fighter"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_anchor2fighter[] = dgPlayerAnim_link_anchor_anchor2fighter;
@@ -261,35 +281,50 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_bom_side_walkR[] = dgPl
 #define dgPlayerAnim_link_anchor_defense_hit "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_defense_hit"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_defense_hit[] = dgPlayerAnim_link_anchor_defense_hit;
 
-#define dgPlayerAnim_link_anchor_defense_long_hitL "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_defense_long_hitL"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_defense_long_hitL[] = dgPlayerAnim_link_anchor_defense_long_hitL;
+#define dgPlayerAnim_link_anchor_defense_long_hitL \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_defense_long_hitL"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_defense_long_hitL[] =
+    dgPlayerAnim_link_anchor_defense_long_hitL;
 
-#define dgPlayerAnim_link_anchor_defense_long_hitR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_defense_long_hitR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_defense_long_hitR[] = dgPlayerAnim_link_anchor_defense_long_hitR;
+#define dgPlayerAnim_link_anchor_defense_long_hitR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_defense_long_hitR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_defense_long_hitR[] =
+    dgPlayerAnim_link_anchor_defense_long_hitR;
 
 #define dgPlayerAnim_link_anchor_front_hitR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_front_hitR"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_front_hitR[] = dgPlayerAnim_link_anchor_front_hitR;
 
-#define dgPlayerAnim_link_anchor_jump_kiru_finsh_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_jump_kiru_finsh_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_jump_kiru_finsh_endR[] = dgPlayerAnim_link_anchor_jump_kiru_finsh_endR;
+#define dgPlayerAnim_link_anchor_jump_kiru_finsh_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_jump_kiru_finsh_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_jump_kiru_finsh_endR[] =
+    dgPlayerAnim_link_anchor_jump_kiru_finsh_endR;
 
 #define dgPlayerAnim_link_anchor_landingR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_landingR"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_landingR[] = dgPlayerAnim_link_anchor_landingR;
 
-#define dgPlayerAnim_link_anchor_normal_kiru_finsh_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_normal_kiru_finsh_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_normal_kiru_finsh_endR[] = dgPlayerAnim_link_anchor_normal_kiru_finsh_endR;
+#define dgPlayerAnim_link_anchor_normal_kiru_finsh_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_normal_kiru_finsh_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_normal_kiru_finsh_endR[] =
+    dgPlayerAnim_link_anchor_normal_kiru_finsh_endR;
 
-#define dgPlayerAnim_link_anchor_pierce_kiru_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_pierce_kiru_endR"
+#define dgPlayerAnim_link_anchor_pierce_kiru_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_pierce_kiru_endR"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_pierce_kiru_endR[] = dgPlayerAnim_link_anchor_pierce_kiru_endR;
 
-#define dgPlayerAnim_link_anchor_pierce_kiru_finsh_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_pierce_kiru_finsh_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_pierce_kiru_finsh_endR[] = dgPlayerAnim_link_anchor_pierce_kiru_finsh_endR;
+#define dgPlayerAnim_link_anchor_pierce_kiru_finsh_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_pierce_kiru_finsh_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_pierce_kiru_finsh_endR[] =
+    dgPlayerAnim_link_anchor_pierce_kiru_finsh_endR;
 
-#define dgPlayerAnim_link_anchor_power_kiru_wait_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_power_kiru_wait_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_power_kiru_wait_endR[] = dgPlayerAnim_link_anchor_power_kiru_wait_endR;
+#define dgPlayerAnim_link_anchor_power_kiru_wait_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_power_kiru_wait_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_power_kiru_wait_endR[] =
+    dgPlayerAnim_link_anchor_power_kiru_wait_endR;
 
-#define dgPlayerAnim_link_anchor_rolling_kiru_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_rolling_kiru_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_rolling_kiru_endR[] = dgPlayerAnim_link_anchor_rolling_kiru_endR;
+#define dgPlayerAnim_link_anchor_rolling_kiru_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_rolling_kiru_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_rolling_kiru_endR[] =
+    dgPlayerAnim_link_anchor_rolling_kiru_endR;
 
 #define dgPlayerAnim_link_anchor_side_walkL "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_side_walkL"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_side_walkL[] = dgPlayerAnim_link_anchor_side_walkL;
@@ -303,8 +338,10 @@ static const ALIGN_ASSET(2) char gPlayerAnim_002578[] = dgPlayerAnim_002578;
 #define dgPlayerAnim_link_anchor_waitL2defense "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitL2defense"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitL2defense[] = dgPlayerAnim_link_anchor_waitL2defense;
 
-#define dgPlayerAnim_link_anchor_waitL2defense_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitL2defense_long"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitL2defense_long[] = dgPlayerAnim_link_anchor_waitL2defense_long;
+#define dgPlayerAnim_link_anchor_waitL2defense_long \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitL2defense_long"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitL2defense_long[] =
+    dgPlayerAnim_link_anchor_waitL2defense_long;
 
 #define dgPlayerAnim_link_anchor_waitL "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitL"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitL[] = dgPlayerAnim_link_anchor_waitL;
@@ -312,14 +349,18 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitL[] = dgPlayerAnim_
 #define dgPlayerAnim_link_anchor_waitL_defense "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitL_defense"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitL_defense[] = dgPlayerAnim_link_anchor_waitL_defense;
 
-#define dgPlayerAnim_link_anchor_waitL_defense_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitL_defense_wait"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitL_defense_wait[] = dgPlayerAnim_link_anchor_waitL_defense_wait;
+#define dgPlayerAnim_link_anchor_waitL_defense_wait \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitL_defense_wait"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitL_defense_wait[] =
+    dgPlayerAnim_link_anchor_waitL_defense_wait;
 
 #define dgPlayerAnim_0025A8 "__OTR__objects/gameplay_keep/gPlayerAnim_0025A8"
 static const ALIGN_ASSET(2) char gPlayerAnim_0025A8[] = dgPlayerAnim_0025A8;
 
-#define dgPlayerAnim_link_anchor_waitL_pierce_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitL_pierce_kiru"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitL_pierce_kiru[] = dgPlayerAnim_link_anchor_waitL_pierce_kiru;
+#define dgPlayerAnim_link_anchor_waitL_pierce_kiru \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitL_pierce_kiru"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitL_pierce_kiru[] =
+    dgPlayerAnim_link_anchor_waitL_pierce_kiru;
 
 #define dgPlayerAnim_0025B8 "__OTR__objects/gameplay_keep/gPlayerAnim_0025B8"
 static const ALIGN_ASSET(2) char gPlayerAnim_0025B8[] = dgPlayerAnim_0025B8;
@@ -327,8 +368,10 @@ static const ALIGN_ASSET(2) char gPlayerAnim_0025B8[] = dgPlayerAnim_0025B8;
 #define dgPlayerAnim_link_anchor_waitR2defense "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitR2defense"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitR2defense[] = dgPlayerAnim_link_anchor_waitR2defense;
 
-#define dgPlayerAnim_link_anchor_waitR2defense_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitR2defense_long"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitR2defense_long[] = dgPlayerAnim_link_anchor_waitR2defense_long;
+#define dgPlayerAnim_link_anchor_waitR2defense_long \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitR2defense_long"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitR2defense_long[] =
+    dgPlayerAnim_link_anchor_waitR2defense_long;
 
 #define dgPlayerAnim_link_anchor_waitR "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitR"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitR[] = dgPlayerAnim_link_anchor_waitR;
@@ -336,14 +379,18 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitR[] = dgPlayerAnim_
 #define dgPlayerAnim_link_anchor_waitR_defense "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitR_defense"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitR_defense[] = dgPlayerAnim_link_anchor_waitR_defense;
 
-#define dgPlayerAnim_link_anchor_waitR_defense_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitR_defense_wait"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitR_defense_wait[] = dgPlayerAnim_link_anchor_waitR_defense_wait;
+#define dgPlayerAnim_link_anchor_waitR_defense_wait \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitR_defense_wait"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitR_defense_wait[] =
+    dgPlayerAnim_link_anchor_waitR_defense_wait;
 
 #define dgPlayerAnim_0025E8 "__OTR__objects/gameplay_keep/gPlayerAnim_0025E8"
 static const ALIGN_ASSET(2) char gPlayerAnim_0025E8[] = dgPlayerAnim_0025E8;
 
-#define dgPlayerAnim_link_anchor_waitR_pierce_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitR_pierce_kiru"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitR_pierce_kiru[] = dgPlayerAnim_link_anchor_waitR_pierce_kiru;
+#define dgPlayerAnim_link_anchor_waitR_pierce_kiru \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_anchor_waitR_pierce_kiru"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_anchor_waitR_pierce_kiru[] =
+    dgPlayerAnim_link_anchor_waitR_pierce_kiru;
 
 #define dgPlayerAnim_link_boom_catch "__OTR__objects/gameplay_keep/gPlayerAnim_link_boom_catch"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_boom_catch[] = dgPlayerAnim_link_boom_catch;
@@ -387,7 +434,8 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_bottle_drink_demo[] = dgPlayer
 #define dgPlayerAnim_link_bottle_drink_demo_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_bottle_drink_demo_end"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_bottle_drink_demo_end[] = dgPlayerAnim_link_bottle_drink_demo_end;
 
-#define dgPlayerAnim_link_bottle_drink_demo_start "__OTR__objects/gameplay_keep/gPlayerAnim_link_bottle_drink_demo_start"
+#define dgPlayerAnim_link_bottle_drink_demo_start \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_bottle_drink_demo_start"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_bottle_drink_demo_start[] = dgPlayerAnim_link_bottle_drink_demo_start;
 
 #define dgPlayerAnim_link_bottle_drink_demo_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_bottle_drink_demo_wait"
@@ -519,8 +567,10 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_demo_kakeyori_mimawasi[] = dgP
 #define dgPlayerAnim_link_demo_kakeyori_miokuri "__OTR__objects/gameplay_keep/gPlayerAnim_link_demo_kakeyori_miokuri"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_demo_kakeyori_miokuri[] = dgPlayerAnim_link_demo_kakeyori_miokuri;
 
-#define dgPlayerAnim_link_demo_kakeyori_miokuri_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_demo_kakeyori_miokuri_wait"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_demo_kakeyori_miokuri_wait[] = dgPlayerAnim_link_demo_kakeyori_miokuri_wait;
+#define dgPlayerAnim_link_demo_kakeyori_miokuri_wait \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_demo_kakeyori_miokuri_wait"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_demo_kakeyori_miokuri_wait[] =
+    dgPlayerAnim_link_demo_kakeyori_miokuri_wait;
 
 #define dgPlayerAnim_link_demo_kakeyori_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_demo_kakeyori_wait"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_demo_kakeyori_wait[] = dgPlayerAnim_link_demo_kakeyori_wait;
@@ -591,85 +641,126 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_derth_rebirth[] = dgPlayerAnim
 #define dgPlayerAnim_link_fighter_LLside_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LLside_kiru"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_LLside_kiru[] = dgPlayerAnim_link_fighter_LLside_kiru;
 
-#define dgPlayerAnim_link_fighter_LLside_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LLside_kiru_end"
+#define dgPlayerAnim_link_fighter_LLside_kiru_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LLside_kiru_end"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_LLside_kiru_end[] = dgPlayerAnim_link_fighter_LLside_kiru_end;
 
-#define dgPlayerAnim_link_fighter_LLside_kiru_finsh "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LLside_kiru_finsh"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_LLside_kiru_finsh[] = dgPlayerAnim_link_fighter_LLside_kiru_finsh;
+#define dgPlayerAnim_link_fighter_LLside_kiru_finsh \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LLside_kiru_finsh"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_LLside_kiru_finsh[] =
+    dgPlayerAnim_link_fighter_LLside_kiru_finsh;
 
-#define dgPlayerAnim_link_fighter_LLside_kiru_finsh_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LLside_kiru_finsh_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_LLside_kiru_finsh_end[] = dgPlayerAnim_link_fighter_LLside_kiru_finsh_end;
+#define dgPlayerAnim_link_fighter_LLside_kiru_finsh_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LLside_kiru_finsh_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_LLside_kiru_finsh_end[] =
+    dgPlayerAnim_link_fighter_LLside_kiru_finsh_end;
 
 #define dgPlayerAnim_link_fighter_LRside_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LRside_kiru"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_LRside_kiru[] = dgPlayerAnim_link_fighter_LRside_kiru;
 
-#define dgPlayerAnim_link_fighter_LRside_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LRside_kiru_end"
+#define dgPlayerAnim_link_fighter_LRside_kiru_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LRside_kiru_end"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_LRside_kiru_end[] = dgPlayerAnim_link_fighter_LRside_kiru_end;
 
-#define dgPlayerAnim_link_fighter_LRside_kiru_finsh "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LRside_kiru_finsh"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_LRside_kiru_finsh[] = dgPlayerAnim_link_fighter_LRside_kiru_finsh;
+#define dgPlayerAnim_link_fighter_LRside_kiru_finsh \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LRside_kiru_finsh"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_LRside_kiru_finsh[] =
+    dgPlayerAnim_link_fighter_LRside_kiru_finsh;
 
-#define dgPlayerAnim_link_fighter_LRside_kiru_finsh_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LRside_kiru_finsh_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_LRside_kiru_finsh_end[] = dgPlayerAnim_link_fighter_LRside_kiru_finsh_end;
+#define dgPlayerAnim_link_fighter_LRside_kiru_finsh_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_LRside_kiru_finsh_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_LRside_kiru_finsh_end[] =
+    dgPlayerAnim_link_fighter_LRside_kiru_finsh_end;
 
 #define dgPlayerAnim_link_fighter_Lnormal_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lnormal_kiru"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lnormal_kiru[] = dgPlayerAnim_link_fighter_Lnormal_kiru;
 
-#define dgPlayerAnim_link_fighter_Lnormal_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lnormal_kiru_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lnormal_kiru_end[] = dgPlayerAnim_link_fighter_Lnormal_kiru_end;
+#define dgPlayerAnim_link_fighter_Lnormal_kiru_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lnormal_kiru_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lnormal_kiru_end[] =
+    dgPlayerAnim_link_fighter_Lnormal_kiru_end;
 
-#define dgPlayerAnim_link_fighter_Lnormal_kiru_finsh "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lnormal_kiru_finsh"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lnormal_kiru_finsh[] = dgPlayerAnim_link_fighter_Lnormal_kiru_finsh;
+#define dgPlayerAnim_link_fighter_Lnormal_kiru_finsh \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lnormal_kiru_finsh"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lnormal_kiru_finsh[] =
+    dgPlayerAnim_link_fighter_Lnormal_kiru_finsh;
 
-#define dgPlayerAnim_link_fighter_Lnormal_kiru_finsh_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lnormal_kiru_finsh_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lnormal_kiru_finsh_end[] = dgPlayerAnim_link_fighter_Lnormal_kiru_finsh_end;
+#define dgPlayerAnim_link_fighter_Lnormal_kiru_finsh_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lnormal_kiru_finsh_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lnormal_kiru_finsh_end[] =
+    dgPlayerAnim_link_fighter_Lnormal_kiru_finsh_end;
 
 #define dgPlayerAnim_link_fighter_Lpierce_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpierce_kiru"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpierce_kiru[] = dgPlayerAnim_link_fighter_Lpierce_kiru;
 
-#define dgPlayerAnim_link_fighter_Lpierce_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpierce_kiru_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpierce_kiru_end[] = dgPlayerAnim_link_fighter_Lpierce_kiru_end;
+#define dgPlayerAnim_link_fighter_Lpierce_kiru_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpierce_kiru_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpierce_kiru_end[] =
+    dgPlayerAnim_link_fighter_Lpierce_kiru_end;
 
-#define dgPlayerAnim_link_fighter_Lpierce_kiru_finsh "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpierce_kiru_finsh"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpierce_kiru_finsh[] = dgPlayerAnim_link_fighter_Lpierce_kiru_finsh;
+#define dgPlayerAnim_link_fighter_Lpierce_kiru_finsh \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpierce_kiru_finsh"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpierce_kiru_finsh[] =
+    dgPlayerAnim_link_fighter_Lpierce_kiru_finsh;
 
-#define dgPlayerAnim_link_fighter_Lpierce_kiru_finsh_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpierce_kiru_finsh_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpierce_kiru_finsh_end[] = dgPlayerAnim_link_fighter_Lpierce_kiru_finsh_end;
+#define dgPlayerAnim_link_fighter_Lpierce_kiru_finsh_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpierce_kiru_finsh_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpierce_kiru_finsh_end[] =
+    dgPlayerAnim_link_fighter_Lpierce_kiru_finsh_end;
 
-#define dgPlayerAnim_link_fighter_Lpower_jump_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_jump_kiru"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_jump_kiru[] = dgPlayerAnim_link_fighter_Lpower_jump_kiru;
+#define dgPlayerAnim_link_fighter_Lpower_jump_kiru \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_jump_kiru"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_jump_kiru[] =
+    dgPlayerAnim_link_fighter_Lpower_jump_kiru;
 
-#define dgPlayerAnim_link_fighter_Lpower_jump_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_jump_kiru_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_jump_kiru_end[] = dgPlayerAnim_link_fighter_Lpower_jump_kiru_end;
+#define dgPlayerAnim_link_fighter_Lpower_jump_kiru_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_jump_kiru_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_jump_kiru_end[] =
+    dgPlayerAnim_link_fighter_Lpower_jump_kiru_end;
 
-#define dgPlayerAnim_link_fighter_Lpower_jump_kiru_hit "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_jump_kiru_hit"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_jump_kiru_hit[] = dgPlayerAnim_link_fighter_Lpower_jump_kiru_hit;
+#define dgPlayerAnim_link_fighter_Lpower_jump_kiru_hit \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_jump_kiru_hit"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_jump_kiru_hit[] =
+    dgPlayerAnim_link_fighter_Lpower_jump_kiru_hit;
 
-#define dgPlayerAnim_link_fighter_Lpower_kiru_side_walk "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_kiru_side_walk"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_kiru_side_walk[] = dgPlayerAnim_link_fighter_Lpower_kiru_side_walk;
+#define dgPlayerAnim_link_fighter_Lpower_kiru_side_walk \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_kiru_side_walk"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_kiru_side_walk[] =
+    dgPlayerAnim_link_fighter_Lpower_kiru_side_walk;
 
-#define dgPlayerAnim_link_fighter_Lpower_kiru_start "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_kiru_start"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_kiru_start[] = dgPlayerAnim_link_fighter_Lpower_kiru_start;
+#define dgPlayerAnim_link_fighter_Lpower_kiru_start \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_kiru_start"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_kiru_start[] =
+    dgPlayerAnim_link_fighter_Lpower_kiru_start;
 
-#define dgPlayerAnim_link_fighter_Lpower_kiru_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_kiru_wait"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_kiru_wait[] = dgPlayerAnim_link_fighter_Lpower_kiru_wait;
+#define dgPlayerAnim_link_fighter_Lpower_kiru_wait \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_kiru_wait"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_kiru_wait[] =
+    dgPlayerAnim_link_fighter_Lpower_kiru_wait;
 
-#define dgPlayerAnim_link_fighter_Lpower_kiru_wait_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_kiru_wait_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_kiru_wait_end[] = dgPlayerAnim_link_fighter_Lpower_kiru_wait_end;
+#define dgPlayerAnim_link_fighter_Lpower_kiru_wait_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_kiru_wait_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_kiru_wait_end[] =
+    dgPlayerAnim_link_fighter_Lpower_kiru_wait_end;
 
-#define dgPlayerAnim_link_fighter_Lpower_kiru_walk "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_kiru_walk"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_kiru_walk[] = dgPlayerAnim_link_fighter_Lpower_kiru_walk;
+#define dgPlayerAnim_link_fighter_Lpower_kiru_walk \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lpower_kiru_walk"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lpower_kiru_walk[] =
+    dgPlayerAnim_link_fighter_Lpower_kiru_walk;
 
 #define dgPlayerAnim_link_fighter_Lrolling_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lrolling_kiru"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lrolling_kiru[] = dgPlayerAnim_link_fighter_Lrolling_kiru;
 
-#define dgPlayerAnim_link_fighter_Lrolling_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lrolling_kiru_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lrolling_kiru_end[] = dgPlayerAnim_link_fighter_Lrolling_kiru_end;
+#define dgPlayerAnim_link_fighter_Lrolling_kiru_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lrolling_kiru_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lrolling_kiru_end[] =
+    dgPlayerAnim_link_fighter_Lrolling_kiru_end;
 
 #define dgPlayerAnim_link_fighter_Lside_jump "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lside_jump"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lside_jump[] = dgPlayerAnim_link_fighter_Lside_jump;
 
-#define dgPlayerAnim_link_fighter_Lside_jump_endL "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lside_jump_endL"
+#define dgPlayerAnim_link_fighter_Lside_jump_endL \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lside_jump_endL"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lside_jump_endL[] = dgPlayerAnim_link_fighter_Lside_jump_endL;
 
 #define dgPlayerAnim_link_fighter_Lside_jump_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lside_jump_end"
@@ -681,16 +772,21 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lside_kiru[] = dgPlaye
 #define dgPlayerAnim_link_fighter_Lside_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lside_kiru_end"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lside_kiru_end[] = dgPlayerAnim_link_fighter_Lside_kiru_end;
 
-#define dgPlayerAnim_link_fighter_Lside_kiru_finsh "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lside_kiru_finsh"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lside_kiru_finsh[] = dgPlayerAnim_link_fighter_Lside_kiru_finsh;
+#define dgPlayerAnim_link_fighter_Lside_kiru_finsh \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lside_kiru_finsh"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lside_kiru_finsh[] =
+    dgPlayerAnim_link_fighter_Lside_kiru_finsh;
 
-#define dgPlayerAnim_link_fighter_Lside_kiru_finsh_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lside_kiru_finsh_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lside_kiru_finsh_end[] = dgPlayerAnim_link_fighter_Lside_kiru_finsh_end;
+#define dgPlayerAnim_link_fighter_Lside_kiru_finsh_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Lside_kiru_finsh_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Lside_kiru_finsh_end[] =
+    dgPlayerAnim_link_fighter_Lside_kiru_finsh_end;
 
 #define dgPlayerAnim_link_fighter_Rside_jump "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Rside_jump"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Rside_jump[] = dgPlayerAnim_link_fighter_Rside_jump;
 
-#define dgPlayerAnim_link_fighter_Rside_jump_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Rside_jump_endR"
+#define dgPlayerAnim_link_fighter_Rside_jump_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Rside_jump_endR"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Rside_jump_endR[] = dgPlayerAnim_link_fighter_Rside_jump_endR;
 
 #define dgPlayerAnim_link_fighter_Rside_jump_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Rside_jump_end"
@@ -702,31 +798,42 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Rside_kiru[] = dgPlaye
 #define dgPlayerAnim_link_fighter_Rside_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Rside_kiru_end"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Rside_kiru_end[] = dgPlayerAnim_link_fighter_Rside_kiru_end;
 
-#define dgPlayerAnim_link_fighter_Rside_kiru_finsh "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Rside_kiru_finsh"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Rside_kiru_finsh[] = dgPlayerAnim_link_fighter_Rside_kiru_finsh;
+#define dgPlayerAnim_link_fighter_Rside_kiru_finsh \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Rside_kiru_finsh"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Rside_kiru_finsh[] =
+    dgPlayerAnim_link_fighter_Rside_kiru_finsh;
 
-#define dgPlayerAnim_link_fighter_Rside_kiru_finsh_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Rside_kiru_finsh_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Rside_kiru_finsh_end[] = dgPlayerAnim_link_fighter_Rside_kiru_finsh_end;
+#define dgPlayerAnim_link_fighter_Rside_kiru_finsh_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Rside_kiru_finsh_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Rside_kiru_finsh_end[] =
+    dgPlayerAnim_link_fighter_Rside_kiru_finsh_end;
 
 #define dgPlayerAnim_link_fighter_Wrolling_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Wrolling_kiru"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Wrolling_kiru[] = dgPlayerAnim_link_fighter_Wrolling_kiru;
 
-#define dgPlayerAnim_link_fighter_Wrolling_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Wrolling_kiru_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Wrolling_kiru_end[] = dgPlayerAnim_link_fighter_Wrolling_kiru_end;
+#define dgPlayerAnim_link_fighter_Wrolling_kiru_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_Wrolling_kiru_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_Wrolling_kiru_end[] =
+    dgPlayerAnim_link_fighter_Wrolling_kiru_end;
 
 #define dgPlayerAnim_link_fighter_backturn_jump "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_backturn_jump"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_backturn_jump[] = dgPlayerAnim_link_fighter_backturn_jump;
 
-#define dgPlayerAnim_link_fighter_backturn_jump_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_backturn_jump_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_backturn_jump_endR[] = dgPlayerAnim_link_fighter_backturn_jump_endR;
+#define dgPlayerAnim_link_fighter_backturn_jump_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_backturn_jump_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_backturn_jump_endR[] =
+    dgPlayerAnim_link_fighter_backturn_jump_endR;
 
-#define dgPlayerAnim_link_fighter_backturn_jump_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_backturn_jump_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_backturn_jump_end[] = dgPlayerAnim_link_fighter_backturn_jump_end;
+#define dgPlayerAnim_link_fighter_backturn_jump_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_backturn_jump_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_backturn_jump_end[] =
+    dgPlayerAnim_link_fighter_backturn_jump_end;
 
 #define dgPlayerAnim_link_fighter_damage_run "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_damage_run"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_damage_run[] = dgPlayerAnim_link_fighter_damage_run;
 
-#define dgPlayerAnim_link_fighter_damage_run_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_damage_run_long"
+#define dgPlayerAnim_link_fighter_damage_run_long \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_damage_run_long"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_damage_run_long[] = dgPlayerAnim_link_fighter_damage_run_long;
 
 #define dgPlayerAnim_link_fighter_defense "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_defense"
@@ -735,11 +842,15 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_defense[] = dgPlayerAn
 #define dgPlayerAnim_link_fighter_defense_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_defense_long"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_defense_long[] = dgPlayerAnim_link_fighter_defense_long;
 
-#define dgPlayerAnim_link_fighter_defense_long_hit "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_defense_long_hit"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_defense_long_hit[] = dgPlayerAnim_link_fighter_defense_long_hit;
+#define dgPlayerAnim_link_fighter_defense_long_hit \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_defense_long_hit"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_defense_long_hit[] =
+    dgPlayerAnim_link_fighter_defense_long_hit;
 
-#define dgPlayerAnim_link_fighter_defense_long_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_defense_long_wait"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_defense_long_wait[] = dgPlayerAnim_link_fighter_defense_long_wait;
+#define dgPlayerAnim_link_fighter_defense_long_wait \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_defense_long_wait"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_defense_long_wait[] =
+    dgPlayerAnim_link_fighter_defense_long_wait;
 
 #define dgPlayerAnim_link_fighter_defense_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_defense_wait"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_defense_wait[] = dgPlayerAnim_link_fighter_defense_wait;
@@ -750,7 +861,8 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_fighter2long[] = dgPla
 #define dgPlayerAnim_link_fighter_front_jump "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_front_jump"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_front_jump[] = dgPlayerAnim_link_fighter_front_jump;
 
-#define dgPlayerAnim_link_fighter_front_jump_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_front_jump_endR"
+#define dgPlayerAnim_link_fighter_front_jump_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_front_jump_endR"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_front_jump_endR[] = dgPlayerAnim_link_fighter_front_jump_endR;
 
 #define dgPlayerAnim_link_fighter_front_jump_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_front_jump_end"
@@ -762,17 +874,22 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_heavy_run_long[] = dgP
 #define dgPlayerAnim_link_fighter_jump_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_jump_kiru"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_jump_kiru[] = dgPlayerAnim_link_fighter_jump_kiru;
 
-#define dgPlayerAnim_link_fighter_jump_kiru_finsh "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_jump_kiru_finsh"
+#define dgPlayerAnim_link_fighter_jump_kiru_finsh \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_jump_kiru_finsh"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_jump_kiru_finsh[] = dgPlayerAnim_link_fighter_jump_kiru_finsh;
 
-#define dgPlayerAnim_link_fighter_jump_kiru_finsh_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_jump_kiru_finsh_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_jump_kiru_finsh_end[] = dgPlayerAnim_link_fighter_jump_kiru_finsh_end;
+#define dgPlayerAnim_link_fighter_jump_kiru_finsh_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_jump_kiru_finsh_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_jump_kiru_finsh_end[] =
+    dgPlayerAnim_link_fighter_jump_kiru_finsh_end;
 
 #define dgPlayerAnim_link_fighter_jump_rollkiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_jump_rollkiru"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_jump_rollkiru[] = dgPlayerAnim_link_fighter_jump_rollkiru;
 
-#define dgPlayerAnim_link_fighter_landing_roll_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_landing_roll_long"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_landing_roll_long[] = dgPlayerAnim_link_fighter_landing_roll_long;
+#define dgPlayerAnim_link_fighter_landing_roll_long \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_landing_roll_long"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_landing_roll_long[] =
+    dgPlayerAnim_link_fighter_landing_roll_long;
 
 #define dgPlayerAnim_link_fighter_normal2fighter "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_normal2fighter"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_normal2fighter[] = dgPlayerAnim_link_fighter_normal2fighter;
@@ -783,52 +900,76 @@ static const ALIGN_ASSET(2) char gPlayerAnim_002A78[] = dgPlayerAnim_002A78;
 #define dgPlayerAnim_link_fighter_normal_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_normal_kiru"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_normal_kiru[] = dgPlayerAnim_link_fighter_normal_kiru;
 
-#define dgPlayerAnim_link_fighter_normal_kiru_endR "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_normal_kiru_endR"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_normal_kiru_endR[] = dgPlayerAnim_link_fighter_normal_kiru_endR;
+#define dgPlayerAnim_link_fighter_normal_kiru_endR \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_normal_kiru_endR"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_normal_kiru_endR[] =
+    dgPlayerAnim_link_fighter_normal_kiru_endR;
 
-#define dgPlayerAnim_link_fighter_normal_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_normal_kiru_end"
+#define dgPlayerAnim_link_fighter_normal_kiru_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_normal_kiru_end"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_normal_kiru_end[] = dgPlayerAnim_link_fighter_normal_kiru_end;
 
-#define dgPlayerAnim_link_fighter_normal_kiru_finsh "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_normal_kiru_finsh"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_normal_kiru_finsh[] = dgPlayerAnim_link_fighter_normal_kiru_finsh;
+#define dgPlayerAnim_link_fighter_normal_kiru_finsh \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_normal_kiru_finsh"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_normal_kiru_finsh[] =
+    dgPlayerAnim_link_fighter_normal_kiru_finsh;
 
-#define dgPlayerAnim_link_fighter_normal_kiru_finsh_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_normal_kiru_finsh_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_normal_kiru_finsh_end[] = dgPlayerAnim_link_fighter_normal_kiru_finsh_end;
+#define dgPlayerAnim_link_fighter_normal_kiru_finsh_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_normal_kiru_finsh_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_normal_kiru_finsh_end[] =
+    dgPlayerAnim_link_fighter_normal_kiru_finsh_end;
 
 #define dgPlayerAnim_link_fighter_pierce_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_pierce_kiru"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_pierce_kiru[] = dgPlayerAnim_link_fighter_pierce_kiru;
 
-#define dgPlayerAnim_link_fighter_pierce_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_pierce_kiru_end"
+#define dgPlayerAnim_link_fighter_pierce_kiru_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_pierce_kiru_end"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_pierce_kiru_end[] = dgPlayerAnim_link_fighter_pierce_kiru_end;
 
-#define dgPlayerAnim_link_fighter_pierce_kiru_finsh "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_pierce_kiru_finsh"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_pierce_kiru_finsh[] = dgPlayerAnim_link_fighter_pierce_kiru_finsh;
+#define dgPlayerAnim_link_fighter_pierce_kiru_finsh \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_pierce_kiru_finsh"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_pierce_kiru_finsh[] =
+    dgPlayerAnim_link_fighter_pierce_kiru_finsh;
 
-#define dgPlayerAnim_link_fighter_pierce_kiru_finsh_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_pierce_kiru_finsh_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_pierce_kiru_finsh_end[] = dgPlayerAnim_link_fighter_pierce_kiru_finsh_end;
+#define dgPlayerAnim_link_fighter_pierce_kiru_finsh_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_pierce_kiru_finsh_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_pierce_kiru_finsh_end[] =
+    dgPlayerAnim_link_fighter_pierce_kiru_finsh_end;
 
-#define dgPlayerAnim_link_fighter_power_jump_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_jump_kiru_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_power_jump_kiru_end[] = dgPlayerAnim_link_fighter_power_jump_kiru_end;
+#define dgPlayerAnim_link_fighter_power_jump_kiru_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_jump_kiru_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_power_jump_kiru_end[] =
+    dgPlayerAnim_link_fighter_power_jump_kiru_end;
 
 #define dgPlayerAnim_002AD0 "__OTR__objects/gameplay_keep/gPlayerAnim_002AD0"
 static const ALIGN_ASSET(2) char gPlayerAnim_002AD0[] = dgPlayerAnim_002AD0;
 
-#define dgPlayerAnim_link_fighter_power_kiru_side_walk "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_kiru_side_walk"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_power_kiru_side_walk[] = dgPlayerAnim_link_fighter_power_kiru_side_walk;
+#define dgPlayerAnim_link_fighter_power_kiru_side_walk \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_kiru_side_walk"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_power_kiru_side_walk[] =
+    dgPlayerAnim_link_fighter_power_kiru_side_walk;
 
-#define dgPlayerAnim_link_fighter_power_kiru_startL "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_kiru_startL"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_power_kiru_startL[] = dgPlayerAnim_link_fighter_power_kiru_startL;
+#define dgPlayerAnim_link_fighter_power_kiru_startL \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_kiru_startL"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_power_kiru_startL[] =
+    dgPlayerAnim_link_fighter_power_kiru_startL;
 
-#define dgPlayerAnim_link_fighter_power_kiru_start "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_kiru_start"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_power_kiru_start[] = dgPlayerAnim_link_fighter_power_kiru_start;
+#define dgPlayerAnim_link_fighter_power_kiru_start \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_kiru_start"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_power_kiru_start[] =
+    dgPlayerAnim_link_fighter_power_kiru_start;
 
-#define dgPlayerAnim_link_fighter_power_kiru_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_kiru_wait"
+#define dgPlayerAnim_link_fighter_power_kiru_wait \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_kiru_wait"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_power_kiru_wait[] = dgPlayerAnim_link_fighter_power_kiru_wait;
 
-#define dgPlayerAnim_link_fighter_power_kiru_wait_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_kiru_wait_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_power_kiru_wait_end[] = dgPlayerAnim_link_fighter_power_kiru_wait_end;
+#define dgPlayerAnim_link_fighter_power_kiru_wait_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_kiru_wait_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_power_kiru_wait_end[] =
+    dgPlayerAnim_link_fighter_power_kiru_wait_end;
 
-#define dgPlayerAnim_link_fighter_power_kiru_walk "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_kiru_walk"
+#define dgPlayerAnim_link_fighter_power_kiru_walk \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_power_kiru_walk"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_power_kiru_walk[] = dgPlayerAnim_link_fighter_power_kiru_walk;
 
 #define dgPlayerAnim_link_fighter_reboundR "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_reboundR"
@@ -846,8 +987,10 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_rebound_long[] = dgPla
 #define dgPlayerAnim_link_fighter_rolling_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_rolling_kiru"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_rolling_kiru[] = dgPlayerAnim_link_fighter_rolling_kiru;
 
-#define dgPlayerAnim_link_fighter_rolling_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_rolling_kiru_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_rolling_kiru_end[] = dgPlayerAnim_link_fighter_rolling_kiru_end;
+#define dgPlayerAnim_link_fighter_rolling_kiru_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_rolling_kiru_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_rolling_kiru_end[] =
+    dgPlayerAnim_link_fighter_rolling_kiru_end;
 
 #define dgPlayerAnim_link_fighter_run "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_run"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_run[] = dgPlayerAnim_link_fighter_run;
@@ -861,10 +1004,12 @@ static const ALIGN_ASSET(2) char gPlayerAnim_002B48[] = dgPlayerAnim_002B48;
 #define dgPlayerAnim_002B50 "__OTR__objects/gameplay_keep/gPlayerAnim_002B50"
 static const ALIGN_ASSET(2) char gPlayerAnim_002B50[] = dgPlayerAnim_002B50;
 
-#define dgPlayerAnim_link_fighter_side_walkL_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_side_walkL_long"
+#define dgPlayerAnim_link_fighter_side_walkL_long \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_side_walkL_long"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_side_walkL_long[] = dgPlayerAnim_link_fighter_side_walkL_long;
 
-#define dgPlayerAnim_link_fighter_side_walkR_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_side_walkR_long"
+#define dgPlayerAnim_link_fighter_side_walkR_long \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_side_walkR_long"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_side_walkR_long[] = dgPlayerAnim_link_fighter_side_walkR_long;
 
 #define dgPlayerAnim_link_fighter_side_walk_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_side_walk_long"
@@ -885,25 +1030,33 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_turn_kiruR_end[] = dgP
 #define dgPlayerAnim_link_fighter_upper_kiruR "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_upper_kiruR"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_upper_kiruR[] = dgPlayerAnim_link_fighter_upper_kiruR;
 
-#define dgPlayerAnim_link_fighter_upper_pierce_kiru "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_upper_pierce_kiru"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_upper_pierce_kiru[] = dgPlayerAnim_link_fighter_upper_pierce_kiru;
+#define dgPlayerAnim_link_fighter_upper_pierce_kiru \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_upper_pierce_kiru"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_upper_pierce_kiru[] =
+    dgPlayerAnim_link_fighter_upper_pierce_kiru;
 
-#define dgPlayerAnim_link_fighter_upper_pierce_kiru_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_upper_pierce_kiru_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_upper_pierce_kiru_end[] = dgPlayerAnim_link_fighter_upper_pierce_kiru_end;
+#define dgPlayerAnim_link_fighter_upper_pierce_kiru_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_upper_pierce_kiru_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_upper_pierce_kiru_end[] =
+    dgPlayerAnim_link_fighter_upper_pierce_kiru_end;
 
-#define dgPlayerAnim_link_fighter_wait2waitL_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_wait2waitL_long"
+#define dgPlayerAnim_link_fighter_wait2waitL_long \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_wait2waitL_long"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_wait2waitL_long[] = dgPlayerAnim_link_fighter_wait2waitL_long;
 
-#define dgPlayerAnim_link_fighter_wait2waitR_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_wait2waitR_long"
+#define dgPlayerAnim_link_fighter_wait2waitR_long \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_wait2waitR_long"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_wait2waitR_long[] = dgPlayerAnim_link_fighter_wait2waitR_long;
 
-#define dgPlayerAnim_link_fighter_waitL2wait_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_waitL2wait_long"
+#define dgPlayerAnim_link_fighter_waitL2wait_long \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_waitL2wait_long"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_waitL2wait_long[] = dgPlayerAnim_link_fighter_waitL2wait_long;
 
 #define dgPlayerAnim_link_fighter_waitL_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_waitL_long"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_waitL_long[] = dgPlayerAnim_link_fighter_waitL_long;
 
-#define dgPlayerAnim_link_fighter_waitR2wait_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_waitR2wait_long"
+#define dgPlayerAnim_link_fighter_waitR2wait_long \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_waitR2wait_long"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_fighter_waitR2wait_long[] = dgPlayerAnim_link_fighter_waitR2wait_long;
 
 #define dgPlayerAnim_link_fighter_waitR_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_fighter_waitR_long"
@@ -1182,7 +1335,8 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_defense[] = dgPlayerAni
 #define dgPlayerAnim_link_normal_defense_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_defense_end"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_defense_end[] = dgPlayerAnim_link_normal_defense_end;
 
-#define dgPlayerAnim_link_normal_defense_end_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_defense_end_free"
+#define dgPlayerAnim_link_normal_defense_end_free \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_defense_end_free"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_defense_end_free[] = dgPlayerAnim_link_normal_defense_end_free;
 
 #define dgPlayerAnim_link_normal_defense_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_defense_free"
@@ -1197,26 +1351,36 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_defense_kiru[] = dgPlay
 #define dgPlayerAnim_link_normal_defense_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_defense_wait"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_defense_wait[] = dgPlayerAnim_link_normal_defense_wait;
 
-#define dgPlayerAnim_link_normal_defense_wait_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_defense_wait_free"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_defense_wait_free[] = dgPlayerAnim_link_normal_defense_wait_free;
+#define dgPlayerAnim_link_normal_defense_wait_free \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_defense_wait_free"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_defense_wait_free[] =
+    dgPlayerAnim_link_normal_defense_wait_free;
 
 #define dgPlayerAnim_link_normal_down_slope_slip "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_down_slope_slip"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_down_slope_slip[] = dgPlayerAnim_link_normal_down_slope_slip;
 
-#define dgPlayerAnim_link_normal_down_slope_slip_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_down_slope_slip_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_down_slope_slip_end[] = dgPlayerAnim_link_normal_down_slope_slip_end;
+#define dgPlayerAnim_link_normal_down_slope_slip_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_down_slope_slip_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_down_slope_slip_end[] =
+    dgPlayerAnim_link_normal_down_slope_slip_end;
 
-#define dgPlayerAnim_link_normal_down_slope_slip_end_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_down_slope_slip_end_free"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_down_slope_slip_end_free[] = dgPlayerAnim_link_normal_down_slope_slip_end_free;
+#define dgPlayerAnim_link_normal_down_slope_slip_end_free \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_down_slope_slip_end_free"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_down_slope_slip_end_free[] =
+    dgPlayerAnim_link_normal_down_slope_slip_end_free;
 
-#define dgPlayerAnim_link_normal_down_slope_slip_end_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_down_slope_slip_end_long"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_down_slope_slip_end_long[] = dgPlayerAnim_link_normal_down_slope_slip_end_long;
+#define dgPlayerAnim_link_normal_down_slope_slip_end_long \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_down_slope_slip_end_long"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_down_slope_slip_end_long[] =
+    dgPlayerAnim_link_normal_down_slope_slip_end_long;
 
 #define dgPlayerAnim_link_normal_electric_shock "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_electric_shock"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_electric_shock[] = dgPlayerAnim_link_normal_electric_shock;
 
-#define dgPlayerAnim_link_normal_electric_shock_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_electric_shock_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_electric_shock_end[] = dgPlayerAnim_link_normal_electric_shock_end;
+#define dgPlayerAnim_link_normal_electric_shock_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_electric_shock_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_electric_shock_end[] =
+    dgPlayerAnim_link_normal_electric_shock_end;
 
 #define dgPlayerAnim_link_normal_fall "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_fall"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_fall[] = dgPlayerAnim_link_normal_fall;
@@ -1236,8 +1400,10 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_fighter2free[] = dgPlay
 #define dgPlayerAnim_link_normal_free2bom "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_free2bom"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_free2bom[] = dgPlayerAnim_link_normal_free2bom;
 
-#define dgPlayerAnim_link_normal_free2fighter_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_free2fighter_free"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_free2fighter_free[] = dgPlayerAnim_link_normal_free2fighter_free;
+#define dgPlayerAnim_link_normal_free2fighter_free \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_free2fighter_free"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_free2fighter_free[] =
+    dgPlayerAnim_link_normal_free2fighter_free;
 
 #define dgPlayerAnim_link_normal_free2freeB "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_free2freeB"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_free2freeB[] = dgPlayerAnim_link_normal_free2freeB;
@@ -1302,20 +1468,26 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_jump[] = dgPlayerAnim_l
 #define dgPlayerAnim_link_normal_jump_climb_hold "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_jump_climb_hold"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_jump_climb_hold[] = dgPlayerAnim_link_normal_jump_climb_hold;
 
-#define dgPlayerAnim_link_normal_jump_climb_hold_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_jump_climb_hold_free"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_jump_climb_hold_free[] = dgPlayerAnim_link_normal_jump_climb_hold_free;
+#define dgPlayerAnim_link_normal_jump_climb_hold_free \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_jump_climb_hold_free"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_jump_climb_hold_free[] =
+    dgPlayerAnim_link_normal_jump_climb_hold_free;
 
 #define dgPlayerAnim_link_normal_jump_climb_up "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_jump_climb_up"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_jump_climb_up[] = dgPlayerAnim_link_normal_jump_climb_up;
 
-#define dgPlayerAnim_link_normal_jump_climb_up_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_jump_climb_up_free"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_jump_climb_up_free[] = dgPlayerAnim_link_normal_jump_climb_up_free;
+#define dgPlayerAnim_link_normal_jump_climb_up_free \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_jump_climb_up_free"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_jump_climb_up_free[] =
+    dgPlayerAnim_link_normal_jump_climb_up_free;
 
 #define dgPlayerAnim_link_normal_jump_climb_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_jump_climb_wait"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_jump_climb_wait[] = dgPlayerAnim_link_normal_jump_climb_wait;
 
-#define dgPlayerAnim_link_normal_jump_climb_wait_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_jump_climb_wait_free"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_jump_climb_wait_free[] = dgPlayerAnim_link_normal_jump_climb_wait_free;
+#define dgPlayerAnim_link_normal_jump_climb_wait_free \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_jump_climb_wait_free"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_jump_climb_wait_free[] =
+    dgPlayerAnim_link_normal_jump_climb_wait_free;
 
 #define dgPlayerAnim_link_normal_jump_up "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_jump_up"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_jump_up[] = dgPlayerAnim_link_normal_jump_up;
@@ -1329,8 +1501,10 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_landing_free[] = dgPlay
 #define dgPlayerAnim_link_normal_landing_roll "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_landing_roll"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_landing_roll[] = dgPlayerAnim_link_normal_landing_roll;
 
-#define dgPlayerAnim_link_normal_landing_roll_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_landing_roll_free"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_landing_roll_free[] = dgPlayerAnim_link_normal_landing_roll_free;
+#define dgPlayerAnim_link_normal_landing_roll_free \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_landing_roll_free"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_landing_roll_free[] =
+    dgPlayerAnim_link_normal_landing_roll_free;
 
 #define dgPlayerAnim_link_normal_landing_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_landing_wait"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_landing_wait[] = dgPlayerAnim_link_normal_landing_wait;
@@ -1347,11 +1521,14 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_long2bom[] = dgPlayerAn
 #define dgPlayerAnim_link_normal_nocarry_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_nocarry_free"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_nocarry_free[] = dgPlayerAnim_link_normal_nocarry_free;
 
-#define dgPlayerAnim_link_normal_nocarry_free_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_nocarry_free_end"
+#define dgPlayerAnim_link_normal_nocarry_free_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_nocarry_free_end"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_nocarry_free_end[] = dgPlayerAnim_link_normal_nocarry_free_end;
 
-#define dgPlayerAnim_link_normal_nocarry_free_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_nocarry_free_wait"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_nocarry_free_wait[] = dgPlayerAnim_link_normal_nocarry_free_wait;
+#define dgPlayerAnim_link_normal_nocarry_free_wait \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_nocarry_free_wait"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_nocarry_free_wait[] =
+    dgPlayerAnim_link_normal_nocarry_free_wait;
 
 #define dgPlayerAnim_link_normal_normal2bom "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_normal2bom"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_normal2bom[] = dgPlayerAnim_link_normal_normal2bom;
@@ -1359,8 +1536,10 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_normal2bom[] = dgPlayer
 #define dgPlayerAnim_link_normal_normal2fighter "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_normal2fighter"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_normal2fighter[] = dgPlayerAnim_link_normal_normal2fighter;
 
-#define dgPlayerAnim_link_normal_normal2fighter_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_normal2fighter_free"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_normal2fighter_free[] = dgPlayerAnim_link_normal_normal2fighter_free;
+#define dgPlayerAnim_link_normal_normal2fighter_free \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_normal2fighter_free"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_normal2fighter_free[] =
+    dgPlayerAnim_link_normal_normal2fighter_free;
 
 #define dgPlayerAnim_link_normal_normal2free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_normal2free"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_normal2free[] = dgPlayerAnim_link_normal_normal2free;
@@ -1419,8 +1598,10 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_put_free[] = dgPlayerAn
 #define dgPlayerAnim_link_normal_re_dead_attack "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_re_dead_attack"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_re_dead_attack[] = dgPlayerAnim_link_normal_re_dead_attack;
 
-#define dgPlayerAnim_link_normal_re_dead_attack_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_re_dead_attack_wait"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_re_dead_attack_wait[] = dgPlayerAnim_link_normal_re_dead_attack_wait;
+#define dgPlayerAnim_link_normal_re_dead_attack_wait \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_re_dead_attack_wait"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_re_dead_attack_wait[] =
+    dgPlayerAnim_link_normal_re_dead_attack_wait;
 
 #define dgPlayerAnim_link_normal_rebound "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_rebound"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_rebound[] = dgPlayerAnim_link_normal_rebound;
@@ -1437,17 +1618,23 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_run_jump[] = dgPlayerAn
 #define dgPlayerAnim_link_normal_run_jump_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_run_jump_end"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_run_jump_end[] = dgPlayerAnim_link_normal_run_jump_end;
 
-#define dgPlayerAnim_link_normal_run_jump_water_fall "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_run_jump_water_fall"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_run_jump_water_fall[] = dgPlayerAnim_link_normal_run_jump_water_fall;
+#define dgPlayerAnim_link_normal_run_jump_water_fall \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_run_jump_water_fall"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_run_jump_water_fall[] =
+    dgPlayerAnim_link_normal_run_jump_water_fall;
 
-#define dgPlayerAnim_link_normal_run_jump_water_fall_wait "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_run_jump_water_fall_wait"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_run_jump_water_fall_wait[] = dgPlayerAnim_link_normal_run_jump_water_fall_wait;
+#define dgPlayerAnim_link_normal_run_jump_water_fall_wait \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_run_jump_water_fall_wait"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_run_jump_water_fall_wait[] =
+    dgPlayerAnim_link_normal_run_jump_water_fall_wait;
 
 #define dgPlayerAnim_link_normal_short_landing "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_short_landing"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_short_landing[] = dgPlayerAnim_link_normal_short_landing;
 
-#define dgPlayerAnim_link_normal_short_landing_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_short_landing_free"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_short_landing_free[] = dgPlayerAnim_link_normal_short_landing_free;
+#define dgPlayerAnim_link_normal_short_landing_free \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_short_landing_free"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_short_landing_free[] =
+    dgPlayerAnim_link_normal_short_landing_free;
 
 #define dgPlayerAnim_link_normal_side_walkL_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_side_walkL_free"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_side_walkL_free[] = dgPlayerAnim_link_normal_side_walkL_free;
@@ -1485,14 +1672,20 @@ static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_throw_free[] = dgPlayer
 #define dgPlayerAnim_link_normal_up_slope_slip "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_up_slope_slip"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_up_slope_slip[] = dgPlayerAnim_link_normal_up_slope_slip;
 
-#define dgPlayerAnim_link_normal_up_slope_slip_end "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_up_slope_slip_end"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_up_slope_slip_end[] = dgPlayerAnim_link_normal_up_slope_slip_end;
+#define dgPlayerAnim_link_normal_up_slope_slip_end \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_up_slope_slip_end"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_up_slope_slip_end[] =
+    dgPlayerAnim_link_normal_up_slope_slip_end;
 
-#define dgPlayerAnim_link_normal_up_slope_slip_end_free "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_up_slope_slip_end_free"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_up_slope_slip_end_free[] = dgPlayerAnim_link_normal_up_slope_slip_end_free;
+#define dgPlayerAnim_link_normal_up_slope_slip_end_free \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_up_slope_slip_end_free"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_up_slope_slip_end_free[] =
+    dgPlayerAnim_link_normal_up_slope_slip_end_free;
 
-#define dgPlayerAnim_link_normal_up_slope_slip_end_long "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_up_slope_slip_end_long"
-static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_up_slope_slip_end_long[] = dgPlayerAnim_link_normal_up_slope_slip_end_long;
+#define dgPlayerAnim_link_normal_up_slope_slip_end_long \
+    "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_up_slope_slip_end_long"
+static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_up_slope_slip_end_long[] =
+    dgPlayerAnim_link_normal_up_slope_slip_end_long;
 
 #define dgPlayerAnim_link_normal_wait2waitL "__OTR__objects/gameplay_keep/gPlayerAnim_link_normal_wait2waitL"
 static const ALIGN_ASSET(2) char gPlayerAnim_link_normal_wait2waitL[] = dgPlayerAnim_link_normal_wait2waitL;
@@ -2850,5 +3043,8 @@ static const ALIGN_ASSET(2) char gFishSkelLimbsLimb_018FB0DL_018950[] = dgFishSk
 #define dgFishSkelLimbsLimb_018FBCDL_0188B0 "__OTR__objects/gameplay_keep/gFishSkelLimbsLimb_018FBCDL_0188B0"
 static const ALIGN_ASSET(2) char gFishSkelLimbsLimb_018FBCDL_0188B0[] = dgFishSkelLimbsLimb_018FBCDL_0188B0;
 
+// CUSTOM
+#define dgGliderDL "__OTR__customitems/glider/gGliderDL"
+static const ALIGN_ASSET(2) char gGliderDL[] = dgGliderDL;
 
 #endif // OBJECTS_GAMEPLAY_KEEP_H
