@@ -2355,7 +2355,7 @@ void Player_InitItemAction(PlayState* play, Player* this, s8 itemAction) {
     this->modelGroup = this->nextModelGroup;
 
     this->stateFlags1 &= ~(PLAYER_STATE1_ITEM_IN_HAND | PLAYER_STATE1_USING_BOOMERANG);
-    osSyncPrintf("ItemAction: %d\n", this->heldItemAction);
+    lusprintf(__FILE__, __LINE__, 2, "ItemAction: %d\n", this->heldItemAction);
     // CUSTOM
     if (this->heldItemAction == PLAYER_IA_GLIDER) {
         ItemSpawnGlider(play, this);
@@ -3207,27 +3207,27 @@ s32 Player_UpperAction_CarryActor(Player* this, PlayState* play) {
             this->actor.gravity = -0.5f;
             this->fallStartHeight = this->actor.world.pos.y;
         }
-
+        lusprintf(__FILE__, __LINE__, 2, "Held actor ID: %d", heldActor->id);
         if (heldActor->id == ACTOR_EN_GLIDER) {
 
-            // osSyncPrintf("Glider detected\n");
-            // EnGlider* glider = (EnGlider*)heldActor;
-            // if (glider->inWindZone == false) {
-            //     this->actor.minVelocityY = -2.0f;
-            //     this->actor.gravity = -0.25f;
-            //     this->fallStartHeight = this->actor.world.pos.y;
-            // } else {
-            //     float max = 8.0f;
-            //     this->actor.minVelocityY = -2.0f;
-            //     float g = 10.0f * (1.0f / glider->wzDistY);
-            //     if (g > max)
-            //         g = max;
-            //     if ((this->actor.velocity.y + g) > max) {
-            //         g = max - this->actor.velocity.y;
-            //     }
-            //     this->actor.gravity = g;
-            //     this->fallStartHeight = this->actor.world.pos.y;
-            // }
+            lusprintf(__FILE__, __LINE__, 2, "Glider detected\n");
+            EnGlider* glider = (EnGlider*)heldActor;
+            if (glider->inWindZone == false) {
+                this->actor.minVelocityY = -2.0f;
+                this->actor.gravity = -0.25f;
+                this->fallStartHeight = this->actor.world.pos.y;
+            } else {
+                float max = 8.0f;
+                this->actor.minVelocityY = -2.0f;
+                float g = 10.0f * (1.0f / glider->wzDistY);
+                if (g > max)
+                    g = max;
+                if ((this->actor.velocity.y + g) > max) {
+                    g = max - this->actor.velocity.y;
+                }
+                this->actor.gravity = g;
+                this->fallStartHeight = this->actor.world.pos.y;
+            }
         }
 
         return true;
@@ -3470,7 +3470,14 @@ void Player_UseItem(PlayState* play, Player* this, s32 item) {
     s32 temp;
     s32 nextAnimType;
 
+    lusprintf(__FILE__, __LINE__, 2, "Using item %d", item);
+
+    if(item == 161) {
+        lusprintf(__FILE__, __LINE__, 2, "GLIDER");
+        itemAction = PLAYER_IA_GLIDER;
+    }else{
     itemAction = Player_ItemToItemAction(item);
+    }
 
     osSyncPrintf("3 ItemAction: %d\n", itemAction);
     LOG_STRING("4 ItemAction");
@@ -3509,11 +3516,10 @@ void Player_UseItem(PlayState* play, Player* this, s32 item) {
                 } else {
                     Sfx_PlaySfxCentered(NA_SE_SY_ERROR);
                 }
-            } else if (itemAction == 72 || itemAction == 73 || itemAction == -120 || itemAction == -56) {
+            } else if (itemAction == 73) {
                   // Handle Deku Nuts
                 lusprintf(__FILE__, __LINE__, 2, "GLIDER");
                 Glide(play, this);
-                lusprintf(__FILE__, __LINE__, 2, "Glide");
             } else if (itemAction == PLAYER_IA_DEKU_NUT) {
                 if (AMMO(ITEM_NUT) != 0) {
                     func_8083C61C(play, this);
@@ -3580,6 +3586,7 @@ void Player_UseItem(PlayState* play, Player* this, s32 item) {
             }
         }
     }
+ 
 }
 
 void func_80836448(PlayState* play, Player* this, LinkAnimationHeader* anim) {
@@ -4955,6 +4962,7 @@ s32 func_808382DC(Player* this, PlayState* play) {
 }
 
 void func_80838940(Player* this, LinkAnimationHeader* anim, f32 arg2, PlayState* play, u16 sfxId) {
+    this->numJumps++; // Autojump counts as first manual jump
     Player_SetupAction(play, this, Player_Action_8084411C, 1);
 
     if (anim != NULL) {
@@ -5984,11 +5992,13 @@ void ItemSpawnGlider(PlayState* play, Player* this) {
 }
 
 void DespawnHeldGlider(PlayState* play, Player* this) {
+    lusprintf(__FILE__, __LINE__, 2, "Despawning glider: %d", this->heldActor->id);
     Actor* heldActor = this->heldActor;
     if (heldActor->id == ACTOR_EN_GLIDER) {
-        osSyncPrintf("Despawning Glider\n");
-        heldActor->scale = (Vec3f){ 0.0f, 0.0f, 0.0f };
-        func_80834644(play, this);
+        lusprintf(__FILE__, __LINE__, 2, "Despawning Glider");
+        // heldActor->scale = (Vec3f){ 0.0f, 0.0f, 0.0f };
+        // func_80834644(play, this);
+        Player_FinishItemChange(play, this);
         this->glideResetTimer = 5;
         this->isGliding = false;
     }
@@ -5997,32 +6007,41 @@ void DespawnHeldGlider(PlayState* play, Player* this) {
 s32 Glide(PlayState* play, Player* this) {
     s32 nextAnimType;
     this->personalUpdraftTimer = 0;
-    if (this->numJumps == 0)
+    lusprintf(__FILE__, __LINE__, 2, "Glide");
+
+    if (this->numJumps == 0) {
+        lusprintf(__FILE__, __LINE__, 2, "First Jump");        
         func_80838940(this, gPlayerAnim_link_normal_run_jump, 6.7f, play, NA_SE_VO_LI_AUTO_JUMP); // First Jump
-    else if ((this->numJumps >= 1) & (this->glideResetTimer == 0)) {
+    } else if ((this->numJumps >= 1) & (this->glideResetTimer == 0)) {
+        lusprintf(__FILE__, __LINE__, 2, "Second Jump");
         this->nextModelGroup = Player_ActionToModelGroup(this, PLAYER_IA_GLIDER);
         nextAnimType = gPlayerModelTypes[this->nextModelGroup][PLAYER_MODELGROUPENTRY_ANIM];
+        lusprintf(__FILE__, __LINE__, 2, "heldItemId %d", this->heldItemId);
+        lusprintf(__FILE__, __LINE__, 2, "heldItemAction %d", this->heldItemAction);
 
         if ((this->heldItemAction >= 0) && (ITEM_GLIDER != this->heldItemId) &&
             (sItemChangeTypes[gPlayerModelTypes[this->modelGroup][PLAYER_MODELGROUPENTRY_ANIM]][nextAnimType] !=
              PLAYER_ITEM_CHG_0)) {
+            lusprintf(__FILE__, __LINE__, 2, "Changing to glider");
             this->heldItemId = ITEM_GLIDER;
             this->stateFlags1 |= PLAYER_STATE1_START_CHANGING_HELD_ITEM;
         } else {
-            // Init new held item for use
             Player_DestroyHookshot(this);
             Player_DetachHeldActor(play, this);
+            lusprintf(__FILE__, __LINE__, 2, "Play should now hold the glider");
             Player_InitItemActionWithAnim(play, this, PLAYER_IA_GLIDER);
             this->isGliding = true;
         }
 
         if (this->landedAfterGliding) {
+            lusprintf(__FILE__, __LINE__, 2, "Landed after gliding");
             this->landedAfterGliding = false;
             this->actor.velocity.y += 8.0f;
             if (this->actor.velocity.y >= 4.0f)
                 this->actor.velocity.y = 4.0f;
         } else {
-            this->actor.velocity.y += 4.0f;
+            lusprintf(__FILE__, __LINE__, 2, "Not landed after gliding");
+            this->actor.velocity.y += 2.0f;
             if (this->actor.velocity.y >= 0.0f)
                 this->actor.velocity.y = 0.0f;
         }
@@ -7251,6 +7270,10 @@ void func_8083DFE0(Player* this, f32* arg1, s16* arg2) {
                 maxSpeed /= abs(giSpeedModifier);
             }
         }
+
+        maxSpeed *= 4.0f;
+
+        lusprintf(__FILE__, __LINE__, 2, "Velocity: %f", this->actor.velocity.x);
 
         if (CVarGetInteger(CVAR_ENHANCEMENT("MMBunnyHood"), BUNNY_HOOD_VANILLA) == BUNNY_HOOD_FAST_AND_JUMP &&
             this->currentMask == PLAYER_MASK_BUNNY) {
@@ -9030,6 +9053,11 @@ void Player_Action_80842180(Player* this, PlayState* play) {
                 }
             }
 
+            // CUSTOM speed boost
+            if (CHECK_BTN_ALL(sControlInput->cur.button, BTN_L)) {
+                sp2C *= 2.0f;
+            }
+
             if (CVarGetInteger(CVAR_ENHANCEMENT("MMBunnyHood"), BUNNY_HOOD_VANILLA) != BUNNY_HOOD_VANILLA &&
                 this->currentMask == PLAYER_MASK_BUNNY) {
                 sp2C *= 1.5f;
@@ -9835,7 +9863,7 @@ void Player_Action_8084411C(Player* this, PlayState* play) {
             // CUSTOM
             if (!func_80835644(play, this, heldActor) && (heldActor->id == ACTOR_EN_GLIDER) &&
                 CHECK_BTN_ANY(sControlInput->press.button, buttonsToCheck)) {
-                osSyncPrintf("Despawning Glider\n");
+                lusprintf(__FILE__, __LINE__, 2, "Despawning Glider");
                 DespawnHeldGlider(play, this);
             }
         }
@@ -12119,6 +12147,20 @@ void Player_UpdateCommon(Player* this, PlayState* play, Input* input) {
         }
     }
 
+    if (this->stateFlags1 & PLAYER_STATE1_CLIMBING_LADDER) {  //1_21 //When climbing somthing - set to already jumped once
+        this->meleeWeaponState = 0;
+        this->numJumps = 1;
+    }
+
+    if (this->stateFlags2 & PLAYER_STATE2_DISABLE_ROTATION_ALWAYS) { //2_6 //When hanging from a ledge- set to already jumped once
+        this->meleeWeaponState = 0;
+        this->numJumps = 1;
+    }
+    if (this->stateFlags1 & PLAYER_STATE1_IN_WATER) {
+        this->meleeWeaponState = 0;
+        this->numJumps = 1;
+    }
+
     if (this->unk_A86 < 0) {
         this->unk_A86++;
         if (this->unk_A86 == 0) {
@@ -12995,6 +13037,8 @@ s16 func_8084ABD8(PlayState* play, Player* this, s32 arg2, s16 arg3) {
 
     if (CVarGetInteger(CVAR_SETTING("MoveInFirstPerson"), 0)) {
         f32 movementSpeed = LINK_IS_ADULT ? 9.0f : 8.25f;
+
+        lusprintf(__FILE__, __LINE__, 2, "Movement Speed: %f", movementSpeed);
         if (CVarGetInteger(CVAR_ENHANCEMENT("MMBunnyHood"), BUNNY_HOOD_VANILLA) != BUNNY_HOOD_VANILLA &&
             this->currentMask == PLAYER_MASK_BUNNY) {
             movementSpeed *= 1.5f;
