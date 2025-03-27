@@ -1244,6 +1244,9 @@ static s8 sItemActions[] = {
     PLAYER_IA_SWORD_KOKIRI,        // ITEM_SWORD_KOKIRI
     PLAYER_IA_SWORD_MASTER,        // ITEM_SWORD_MASTER
     PLAYER_IA_SWORD_BIGGORON,      // ITEM_SWORD_BIGGORON
+    // CUSTOM
+    PLAYER_IA_GLIDER,              // ITEM_GLIDER
+    PLAYER_IA_MAX
 };
 
 static s32 (*sItemActionUpdateFuncs[])(Player* this, PlayState* play) = {
@@ -1314,6 +1317,7 @@ static s32 (*sItemActionUpdateFuncs[])(Player* this, PlayState* play) = {
     func_8083485C,                 // PLAYER_IA_MASK_GERUDO
     func_8083485C,                 // PLAYER_IA_MASK_TRUTH
     func_8083485C,                 // PLAYER_IA_LENS_OF_TRUTH
+    func_8083485C,                 // PLAYER_IA_GLIDER
 };
 
 static void (*sItemActionInitFuncs[])(PlayState* play, Player* this) = {
@@ -2238,6 +2242,8 @@ void Player_InitItemActionWithAnim(PlayState* play, Player* this, s8 itemAction)
 
     // This is redundant, the same two flags get unset in
     // `Player_InitItemAction` called below.
+
+    osSyncPrintf("ItemAction: %d\n", itemAction);
     this->stateFlags1 &= ~(PLAYER_STATE1_ITEM_IN_HAND | PLAYER_STATE1_USING_BOOMERANG);
 
     for (animGroup = 0; animGroup < PLAYER_ANIMGROUP_MAX; animGroup++) {
@@ -2255,13 +2261,15 @@ void Player_InitItemActionWithAnim(PlayState* play, Player* this, s8 itemAction)
 }
 
 s8 Player_ItemToItemAction(s32 item) {
+    //print
+    osSyncPrintf("Item: %d\n", item);
     if (GameInteractor_Should(VB_ITEM_ACTION_BE_NONE, item >= ITEM_NONE_FE, item)) {
         return PLAYER_IA_NONE;
     } else if (item == ITEM_LAST_USED) {
         return PLAYER_IA_SWORD_CS;
     } else if (item == ITEM_FISHING_POLE) {
         return PLAYER_IA_FISHING_POLE;
-    } else {
+    }else {
         return sItemActions[item];
     }
 }
@@ -2347,10 +2355,11 @@ void Player_InitItemAction(PlayState* play, Player* this, s8 itemAction) {
     this->modelGroup = this->nextModelGroup;
 
     this->stateFlags1 &= ~(PLAYER_STATE1_ITEM_IN_HAND | PLAYER_STATE1_USING_BOOMERANG);
-
+    osSyncPrintf("ItemAction: %d\n", this->heldItemAction);
     // CUSTOM
     if (this->heldItemAction == PLAYER_IA_GLIDER) {
-        ItemSpawnGlider(play, this);
+        // ItemSpawnGlider(play, this);
+        sItemActionInitFuncs[PLAYER_IA_BOMB](play, this);
     } else {
         sItemActionInitFuncs[itemAction](play, this);
     }
@@ -3201,24 +3210,25 @@ s32 Player_UpperAction_CarryActor(Player* this, PlayState* play) {
         }
 
         if (heldActor->id == ACTOR_EN_GLIDER) {
-            osSyncPrintf("Glider detected\n");
-            EnGlider* glider = (EnGlider*)heldActor;
-            if (glider->inWindZone == false) {
-                this->actor.minVelocityY = -2.0f;
-                this->actor.gravity = -0.25f;
-                this->fallStartHeight = this->actor.world.pos.y;
-            } else {
-                float max = 8.0f;
-                this->actor.minVelocityY = -2.0f;
-                float g = 10.0f * (1.0f / glider->wzDistY);
-                if (g > max)
-                    g = max;
-                if ((this->actor.velocity.y + g) > max) {
-                    g = max - this->actor.velocity.y;
-                }
-                this->actor.gravity = g;
-                this->fallStartHeight = this->actor.world.pos.y;
-            }
+
+            // osSyncPrintf("Glider detected\n");
+            // EnGlider* glider = (EnGlider*)heldActor;
+            // if (glider->inWindZone == false) {
+            //     this->actor.minVelocityY = -2.0f;
+            //     this->actor.gravity = -0.25f;
+            //     this->fallStartHeight = this->actor.world.pos.y;
+            // } else {
+            //     float max = 8.0f;
+            //     this->actor.minVelocityY = -2.0f;
+            //     float g = 10.0f * (1.0f / glider->wzDistY);
+            //     if (g > max)
+            //         g = max;
+            //     if ((this->actor.velocity.y + g) > max) {
+            //         g = max - this->actor.velocity.y;
+            //     }
+            //     this->actor.gravity = g;
+            //     this->fallStartHeight = this->actor.world.pos.y;
+            // }
         }
 
         return true;
@@ -3463,6 +3473,12 @@ void Player_UseItem(PlayState* play, Player* this, s32 item) {
 
     itemAction = Player_ItemToItemAction(item);
 
+    osSyncPrintf("3 ItemAction: %d\n", itemAction);
+    LOG_STRING("4 ItemAction");
+    //try all logging possibilities
+    //log in stdllib
+    lusprintf(__FILE__, __LINE__, 2, "ItemAction: %d", itemAction);
+
     if (((this->heldItemAction == this->itemAction) &&
          (!(this->stateFlags1 & PLAYER_STATE1_SHIELDING) || (Player_ActionToMeleeWeapon(itemAction) != 0) ||
           (itemAction == PLAYER_IA_NONE))) ||
@@ -3495,8 +3511,14 @@ void Player_UseItem(PlayState* play, Player* this, s32 item) {
                     Sfx_PlaySfxCentered(NA_SE_SY_ERROR);
                 }
             } else if (itemAction == PLAYER_IA_GLIDER) {
-                // CUSTOM
-                Glide(play, this);
+                  // Handle Deku Nuts
+                  lusprintf(__FILE__, __LINE__, 2, "GLIDER");
+                if (AMMO(ITEM_NUT) != 0) {
+                    func_8083C61C(play, this);
+                } else {
+                    Sfx_PlaySfxCentered(NA_SE_SY_ERROR);
+                }
+                
             } else if (itemAction == PLAYER_IA_DEKU_NUT) {
                 // Handle Deku Nuts
                 if (AMMO(ITEM_NUT) != 0) {
@@ -3554,6 +3576,8 @@ void Player_UseItem(PlayState* play, Player* this, s32 item) {
                     // Init new held item for use
                     Player_DestroyHookshot(this);
                     Player_DetachHeldActor(play, this);
+
+                    osSyncPrintf("ItemAction: %d\n", itemAction);
                     Player_InitItemActionWithAnim(play, this, itemAction);
                 }
             } else {
